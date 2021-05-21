@@ -39,7 +39,7 @@ We encourage you to emphasize quality over quantity, and to ask whatever questio
 
 1. Build an abstraction that takes the following arguments:
    - A pair
-   - A unit of time (_t_)
+   - A unit of time (_t_) that can be either "milliseconds", "seconds", "minutes" or "hours".
    - A number of time units (_n_)
 
     Given these arguments, it should fetch and store the order book for the pair every _n_ _t_. For example: if _t_ = "second" and _n_ = 3, it should fetch the order book every second for a total of 3 times.
